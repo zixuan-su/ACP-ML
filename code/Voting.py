@@ -45,7 +45,8 @@ def performance(y, predicted_label):
     # cm = confusion_matrix(y, predicted_label)  # 混淆矩阵
     return accuracy, sensitivity, specificity, MCC, auc
 
-def Stacking (path):
+#this function sctually is a voting function  , I forgot to rename it, it's been a long time since now...... 
+def Stacking (path):i
 
     fp = open(r'../result/voting_performance.txt', 'a')  # 用于记录训练集性能指标
     #加载数据集
