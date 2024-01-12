@@ -46,7 +46,7 @@ def performance(y, predicted_label):
     return accuracy, sensitivity, specificity, MCC, auc
 
 #this function sctually is a voting function  , I forgot to rename it, it's been a long time since now...... 
-def Stacking (path):i
+def Stacking (path):
 
     fp = open(r'../result/voting_performance.txt', 'a')  # 用于记录训练集性能指标
     #加载数据集
